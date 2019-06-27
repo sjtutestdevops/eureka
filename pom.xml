@@ -4,8 +4,8 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.goodrain</groupId>
-	<artifactId>spring-cloud-eureka</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<artifactId>eureka</artifactId>
+	<version>1.0.0</version>
 	<packaging>jar</packaging>
 
 	<name>spring-cloud-eureka</name>
@@ -29,6 +29,7 @@
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-eureka-server</artifactId>
+			<version>1.4.6.RELEASE</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
